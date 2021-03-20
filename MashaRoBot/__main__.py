@@ -81,7 +81,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD JINN TO YOUR GROUP ➕️", url="t.me/MashaRoBot?startgroup=true"),
+            text="➕️ ADD JINN TO YOUR GROUP ➕️", url="t.me/jinn2o_bot?startgroup=true"),
     ],
     [
        
