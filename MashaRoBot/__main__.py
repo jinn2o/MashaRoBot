@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗]`My name is` *JINN*
+`Hellow` [🤗]`My name is` *കാന്താരി*
 `I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.` 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD JINN TO YOUR GROUP ➕️", url="t.me/jinn2o_bot?startgroup=true"),
+            text="➕️ ADD കാന്താരി TO YOUR GROUP ➕️", url="t.me/jinn2o_bot?startgroup=true"),
     ],
     [
        
@@ -96,7 +96,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [JINN🙋‍♀️]
+`Hi.. I'm` [കാന്താരി]
 `Click on the buttons below to get documentation about specific modules..`"""
 
 IMPORTED = {}
@@ -342,7 +342,7 @@ def Masha_about_callback(update, context):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *JINN*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *കാന്താരി*, a powerful group management pro bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -374,7 +374,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *JINN*.""",
+            text=""" Hi..🤗 I'm *കാന്താരി*.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
